@@ -6,3 +6,6 @@ const ingredients = [
   'Herbs',
   'Condiments',
 ];
+const newArray = ingredients.map(ingredient => {
+  document.createElement("li")
+});
